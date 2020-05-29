@@ -1,0 +1,103 @@
+body,
+html {
+  width: 100%;
+  font-family: 'GlacialIndifference';
+  background-color: #fffffe;
+
+}
+
+@font-face {
+   font-family: GlacialIndifference;
+   src: url(GlacialIndifference-regular.otf) format("opentype");
+}
+
+@font-face {
+   font-family: GlacialIndifference;
+   src: url(GlacialIndifference-bold.otf) format("opentype");
+   font-weight: bold;
+}
+
+
+
+.container {
+	margin: 20px auto;
+	max-width: 650px;
+
+}
+
+
+h1 {
+	font-size: 3em;
+	font-weight: bold;
+	color: #078080;
+	padding-top: 0.5em;
+	text-align: center;
+}
+
+
+hr { 
+	border-color: #f45d48;
+	border-width: 3px;
+	max-width: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+.btns {
+	
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+.btn { 
+
+	border-radius: 15px;
+	font-color: #CFC9C2;
+	margin: 5px;
+	background-color: #f8f5f2;
+	width:100px;
+
+ }
+
+
+a {
+ text-decoration: none ;
+ color:#232323;
+  cursor:pointer;
+}
+
+
+.btn:hover {
+	background-color: #f45d48;
+	transform: scale(1.1);
+}
+
+a.resume  {
+	border-color: #f45d48;
+
+}
+
+
+.about {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 50px;
+
+}
+
+
+a.here {
+ color:#f45d48;
+  cursor:pointer;
+}
+
+
+ul {
+	padding-right: 20px;
+}
